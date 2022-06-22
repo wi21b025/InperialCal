@@ -11,5 +11,10 @@ public class CalculatroController {
     public double cm(@RequestParam double a) {
         return e.cm(a);
     }
+
+    @RequestMapping("/m")
+    public double m(@RequestParam double a) {
+        return  e.m(a);
+    }
 }
 

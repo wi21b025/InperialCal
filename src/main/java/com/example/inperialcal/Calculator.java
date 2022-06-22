@@ -5,4 +5,9 @@ public class Calculator {
 
         return 2.54* a;
     }
+
+    public double m(double a) {
+        return 0.9144 * a;
+
+    }
 }
