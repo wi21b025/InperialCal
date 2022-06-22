@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class CalculatroController {
     Calculator e = new Calculator();
-
+    @RequestMapping("/cm")
+    public double cm(@RequestParam double a) {
+        return e.cm(a);
+    }
 }
 
